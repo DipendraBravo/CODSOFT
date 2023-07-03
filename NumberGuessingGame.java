@@ -22,12 +22,12 @@ public class NumberGuessingGame {
                         break;
                     }else if(guessNumber>targetNumber){
                         System.out.println("Too high . Better luck next time");
-
                     }
                     else {
                         System.out.println("Too low. Better luck next time");
-
                     }
+            }else{
+                break;
             }
 
         }
