@@ -18,18 +18,18 @@ public class NumberGuessingGame {
             attempts++;
             if (attempts<=5){
                     if(guessNumber == targetNumber){
-                        System.out.println("Congratulations ! you guessed correct number in "+attempts+"attempts");
+                        System.out.println("Congratulations ! you guessed correct number in "+attempts+" attempts");
                         break;
                     }else if(guessNumber>targetNumber){
                         System.out.println("Too high . Better luck next time");
-                        break;
+
                     }
                     else {
                         System.out.println("Too low. Better luck next time");
-                        break;
+
                     }
             }
-            break;
+
         }
         playAgain();
     }
